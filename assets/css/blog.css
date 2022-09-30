@@ -1,0 +1,20 @@
+.blog {
+    font-family: 'Open Sans', sans-serif;
+    background: #50b490;
+    font-size: 14px;
+    line-height: 22px;
+    overflow-x: hidden;
+}
+
+.blog h1 {
+  color: #fff;
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}

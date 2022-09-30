@@ -1,0 +1,7 @@
+<h1><%= @post.title %></h1>
+
+<p>
+<%= @post.body %>
+</p>
+
+<span><%= live_redirect "Back", to: Routes.post_index_path(@socket, :index) %></span>
